@@ -1,0 +1,115 @@
+html {
+  background-image: url(./mountains.jpg);
+  background-color: darkslategrey: .8;
+  display: inline-block;
+  background-size:cover;
+  background-position: center;
+
+}
+
+header {
+
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+
+body {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: aliceblue;
+  margin-top: 0;
+  margin-bottom: 0;
+  opacity: .85;
+  padding-left: 2%;
+  padding-right: 2%;
+
+}
+
+nav {
+  text-align:center;
+
+}
+nav > a{
+  color: rgb(4, 4, 71);
+  display: inline-flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 5%;
+  text-decoration: none;
+  text-align:center;
+  text-decoration: none
+}
+
+a:hover{
+  font-size:larger; 
+  color: rgb(255, 206, 101);
+}
+img {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  
+}
+
+.bio-page1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+p {
+  font-size: 1em;
+  padding: 5%;}
+
+  h1{
+    font-size: large;
+    font-family: monospace;
+    text-shadow: rgb(156, 179, 241) 1px 0 1px;
+    margin-right: 15%;
+  }
+
+  .home-info{
+    margin-right: 15%;
+    height: fit-content;
+    width: 45%;
+    border: solid 2px black;
+
+   }
+#jj{
+  padding: 5%;
+}
+
+#music{
+  padding: 5%;
+}
+#slefie{
+  background: none !important;
+  max-width: 130%;
+  height: auto;
+  opacity: 1 !important;
+}
+
+#home-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-links{
+  margin-top: 25%;
+  display: flex;
+  align-items: center;
+}
+
+.link-id{
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+
+}
+div{
+  padding: 3%;
+}

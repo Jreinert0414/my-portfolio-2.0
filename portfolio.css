@@ -1,0 +1,20 @@
+html{
+    background-image: url(./concert.jpeg);
+    background-color: darkslategrey: .8;
+    display: inline-block;
+    background-size:cover;
+    background-position: center;
+
+}
+    
+Body{
+margin-left: 20%;
+margin-right: 20%;
+background-color: rgb(62, 71, 71);
+margin-top: 0;
+margin-bottom: 0;
+opacity: .85;
+padding-left: 2%;
+padding-right: 2%;
+
+}
