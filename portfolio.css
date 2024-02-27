@@ -1,6 +1,6 @@
 html{
     background-image: url(./concert.jpeg);
-    background-color: darkslategrey: .8;
+    background-color: darkslategrey: .9;
     display: inline-block;
     background-size:cover;
     background-position: center;
@@ -16,5 +16,30 @@ margin-bottom: 0;
 opacity: .85;
 padding-left: 2%;
 padding-right: 2%;
+justify-content: center;}
+
+h1{
+    color: aliceblue;
+    text-shadow: rgb(35, 39, 51) 1px 0 1px;
+    align-items: center;
+}
+   
+.music-info{
+align-items: center;
+}
+
+
+audio{
+    align-items:center ;
+}
+#work-sample{
+    clear: both;
+    width: 100%;
+    height: auto;
+    opacity: 1 !important;
+}
+
+#minis{
+    justify-content:center ;
 
 }
