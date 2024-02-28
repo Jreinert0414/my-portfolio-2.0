@@ -40,6 +40,15 @@ audio{
 }
 
 #minis{
-    justify-content:center ;
+    display:flex;
+    justify-content: space-between;
 
 }
+
+
+.test{
+        height: 50px;
+        width: 50px;
+        background-color: azure;
+
+      }
