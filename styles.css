@@ -114,13 +114,6 @@ h1 {
   padding: 5%;
 }
 
-/* #slefie {
-  position: relative;
-  background: none !important;
-  width: auto;
-  height: 50%;
-  opacity: 1 !important;
-} */
 
 .home-page{
   display: flex;
@@ -135,13 +128,10 @@ h1 {
 /* .link-id > svg{
 height: 5em !important;
 width: auto !important;
+only grabbing some of the svgs need to fix
 }
  */
 
-/* } */
-/* div{
-  padding: 3%;
-} */
 
 #web-sample {
   opacity: 1 !important;
