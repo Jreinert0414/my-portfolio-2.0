@@ -1,7 +1,6 @@
 html{
     background-image: url(./concert.jpeg);
-    background-color: darkslategrey: .9;
-    display: inline-block;
+
     background-size:cover;
     background-position: center;
 
@@ -13,10 +12,14 @@ margin-right: 20%;
 background-color: rgb(62, 71, 71);
 margin-top: 0;
 margin-bottom: 0;
-opacity: .85;
+opacity: .95;
 padding-left: 2%;
 padding-right: 2%;
-justify-content: center;}
+display: flex;
+flex-direction: column;
+justify-content: center;
+min-width: fit-content;
+}
 
 h1{
     color: aliceblue;
@@ -32,17 +35,24 @@ align-items: center;
 audio{
     align-items:center ;
 }
-#work-sample{
+#web-sample{
     clear: both;
     width: 100%;
     height: auto;
-    opacity: 1 !important;
+    opacity: 3 !important;
 }
 
 #minis{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
+
+}
+.mini-pics{
+    outline: solid 1mm aliceblue;
+    outline-offset: .7em;
+    margin: .5em;
+    opacity: 2;
 }
 
 
@@ -52,3 +62,19 @@ audio{
         background-color: azure;
 
       }
+      
+@media screen and (max-width: 768px) {
+
+#minis{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+#web-sample{
+    width: 100%;
+}
+    
+}

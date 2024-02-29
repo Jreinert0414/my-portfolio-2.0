@@ -3,54 +3,40 @@
 <head>
   <meta name="viewport" content="width=device-width, inital-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
-  <link rel="stylesheet" href="./portfolio.css">
-  <title>Portfolio</title>
+  <link rel="stylesheet" href="./sub-styles.css">
+  <title>Sumbission Page</title>
+
 </head>
 
-
-<header>
+<head>
   <nav>
-
-
     <a href="./bio.html">Biography</a>
     <a href="./index.html">Home</A>
     <a href="./portfolio.html">Portfolio</a>
-    <a href="./submission-page.html">Submissions Page</a>
-
-
-
+    <a href="./submission-page.html">Contact-us</a>
   </nav>
-
-</header>
+</head>
 
 <body>
-  <section class="music-info">
-    <h1> When I can I enjoy sound design session where I experiment with wave tables
-      to come up with new and exciting sounds to use in my music!
-    </h1>
-    <audio controls autoplay muted>
-      <source src="late night vibes.wav">
-      <!-- will get this link to have sound soon! -->
-    </audio>
-  </section>
-  <section class="dev-info">
-    <h1> As I journey deeper into the development world I look forward to being
-      able to refine my skill and make the internet a more beautiful place!
-    </h1>
-    <img src="work-sample.png" id="web-sample">
-  </section>
-  <section class="mini-info">
-    <h1> One of my all time favorite passtimes is bringing small pieces of plastic
-      to life by giving them detailed paint jobs. As i get more skilled I look
-      forward to commissioning projects to bring peoples dreams to life!
-    </h1>
-    <div id="minis">
-      <img src="pash.jpg" class="mini-pics">
-      <img src="archer.jpg" class="mini-pics">
-      <img src="illith.jpg" class="mini-pics">
-    </div>
-  </section>
 
+  <div class="sub-page">
+    <div class="sub-content">
+      <form class="sub=form" action="./submitted.html">
+        <label for="fname">First Name:</label>
+        <input type="text" class="text-box">
+        <label for="lname">Last Name:</label>
+        <input type="text" class="text-box">
+        <label for="email">Email Adress:</label>
+        <input type="email" class="text-box">
+        <label for="phone">Phone Number:</label>
+        <input type="number" class="text-box">
+        <label for="comment">Comments:</label>
+        <input type="text id" id="comment" contenteditable="true">
+        <input type="submit" id="sub-button"/>
+      </form>
+
+    </div>
+  </div>
 </body>
 <footer>
   <div class="link-id">
